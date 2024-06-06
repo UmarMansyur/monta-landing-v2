@@ -1,25 +1,45 @@
 <template>
   <TheHeader></TheHeader>
-  <main id="content" class="mt-24 sm:mt-24">
+  <main id="content" class="mt-20 sm:mt-0">
     <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid lg:grid-cols-7 lg:gap-x-8 xl:gap-x-12 lg:items-center">
+        <!-- Gradients -->
+        <div aria-hidden="true" class="flex absolute -top-96 start-1/2 transform -translate-x-1/2 -z-50">
+          <div
+            class="bg-gradient-to-r from-blue-50 to-purple-100 via-blue-100 blur-3xl w-[25rem] h-[44rem] rotate-[-60deg] transform -translate-x-[5rem]">
+          </div>
+          <div
+            class="bg-gradient-to-tl from-blue-50 via-purple-100 to-blue-100 blur-3xl w-[90rem] h-[50rem] rounded-fulls origin-top-left -rotate-12 -translate-x-[15rem]">
+          </div>
+        </div>
+        <!-- End Gradients -->
         <div class="lg:col-span-3">
-          <h6 class="text-green-700 text-xs">#SpiritOfSkripsi</h6>
-          <h1 class="block text-3xl font-bold text-gray-800 sm:text-4xl md:text-5xl lg:text-6xl">Welcome To <span
-              class="text-blue-600">MONTAK</span>
-          </h1>
+
+          <div class="inline-block">
+            <div class="bg-white shadow-sm rounded-full flex px-5 py-2 gap-4">
+              <img src="/images/kemendikbud.png" alt="Kemendikbud" class="h-8">
+              <img src="/images/kampus-merdeka.png" alt="Kampus Merdeka" class="h-8">
+              <img src="/images/logo-unira.png" alt="UNIRA" class="h-8">
+            </div>
+          </div>
+          <h6 class="text-green-400 text-xl">#KeepSmile</h6>
+          <h1 class="block text-3xl font-medium text-gray-800 sm:text-4xl md:text-5xl lg:text-7xl">
+            Welcome To
+          </h1> <span
+            class="text-blue-600 text-7xl drop-shadow-[0_35px_35px_rgba(0,0,255,0.30)] font-bold">MONTAK</span>
           <p class="mt-3 text-lg text-gray-800">
-            Paperless adalah masa depan. Saatnya mengurangi biaya dan selamatkan lingkungan. Change the way to do your
-            thesis and internship report.
+            Paperless adalah masa depan. Saatnya mengurangi biaya dan selamatkan lingkungan.
+            <span class="italic">
+              Change the way to do your thesis and internship report.
+            </span>
           </p>
 
-          <div class="mt-5 lg:mt-8 flex flex-col items-center gap-2 sm:flex-row sm:gap-3">
-
-            <a class="w-full sm:w-auto py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full bg-blue-600 text-white hover:shadow-sm"
+          <div class="mt-5 lg:mt-8 flex flex-row items-center gap-4">
+            <a class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
               href="#">
               Ajukan TA/KP
             </a>
-            <a class="w-full sm:w-auto py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full bg-[#e5e9f2] text-[#34364a] hover:shadow-sm"
+            <a class="text-white bg-gradient-to-r from-gray-500 via-gray-600 to-gray-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-gray-300 dark:focus:ring-gray-800 shadow-lg shadow-gray-500/50 dark:shadow-lg dark:shadow-gray-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
               href="#">
               PANDUAN
             </a>
@@ -27,7 +47,7 @@
           <div class="mt-6 lg:mt-12">
             <span class="text-xs font-medium text-gray-800 uppercase">Build by:</span>
 
-            <div class="mt-4 flex gap-x-8">
+            <div class="mt-4 flex gap-x-8 transition-transform transform hover:scale-105">
               <svg class="w-20 h-auto" width="106" height="36" viewBox="0 0 106 36" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0)">
@@ -109,44 +129,142 @@
         </div>
         <div class="lg:col-span-4 mt-10 lg:mt-0 relative">
           <img class="w-28 absolute -z-20 mt-96" src="/images/patern.svg" alt="patern">
-          <img class="w-full h-auto object-cover ms-auto" src="/images/hero-img.png" alt="Image Description">
+          <img class="min-w-96 object-cover ms-auto drop-shadow-[0_45px_40px_rgba(225,225,255,0.5)]"
+            src="/images/hero-img.png" alt="Image Description">
         </div>
       </div>
     </div>
 
-    <section class="px-3">
-      <div class="grid grid-cols-4 gap-10 px-10">
-        <div class=" bg-white shadow rounded-lg dark:bg-gray-800 dark:border-gray-700 p-4">
-         <div class="bg-green-900 rounded-full w-16 h-16 flex justify-center items-center">
-          
-         </div>
-          
-        </div>
-        <div class=" bg-white shadow rounded-lg dark:bg-gray-800 dark:border-gray-700">
-         
-          b
-        </div>
-        <div class=" bg-white shadow rounded-lg dark:bg-gray-800 dark:border-gray-700">
-         
-          c
-        </div>
-        <div class=" bg-white shadow rounded-lg dark:bg-gray-800 dark:border-gray-700">
-         
-         d 
-        </div>
-      </div>
-    </section>
-
-
-    <!-- <InformationCard />
+    <InformationCard />
     <RegistrationStep />
-    <TimeRegistration/> -->
+    <div class="container mx-auto">
+      <div class="grid grid-cols-2 gap-10">
+        <div id="accordion-color" data-accordion="collapse"
+          data-active-classes="bg-blue-100 dark:bg-gray-800 text-blue-600 dark:text-white">
+          <h2 id="accordion-color-heading-1">
+            <button type="button"
+              class="flex items-center focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 justify-between p-5 w-full font-medium text-left border border-gray-200 dark:border-gray-700 border-b-0 text-blue-600 dark:text-white bg-blue-100 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-gray-800 rounded-t-xl"
+              data-accordion-target="#accordion-color-body-1" aria-expanded="true"
+              aria-controls="accordion-color-body-1">
+              <span>What is Flowbite?</span>
+              <svg data-accordion-icon class="w-6 h-6 shrink-0 rotate-180" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+          </h2>
+          <div id="accordion-color-body-1" aria-labelledby="accordion-color-heading-1">
+            <div class="p-5 border border-gray-200 dark:border-gray-700 dark:bg-gray-900 border-b-0">
+              <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is an open-source library of interactive
+                components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more.</p>
+              <p class="text-gray-500 dark:text-gray-400">Check out this guide to learn how to <a
+                  href="https://flowbite.com/docs/getting-started/introduction/" target="_blank"
+                  class="text-blue-600 dark:text-blue-500 hover:underline">get started</a> and start developing websites
+                even faster with components on top of Tailwind CSS.</p>
+            </div>
+          </div>
+          <h2 id="accordion-color-heading-2">
+            <button type="button"
+              class="flex items-center focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 justify-between p-5 w-full font-medium border border-gray-200 dark:border-gray-700 border-b-0 text-left text-gray-500 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800"
+              data-accordion-target="#accordion-color-body-2" aria-expanded="false"
+              aria-controls="accordion-color-body-2">
+              <span>Is there a Figma file available?</span>
+              <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+          </h2>
+          <div id="accordion-color-body-2" class="hidden" aria-labelledby="accordion-color-heading-2">
+            <div class="p-5 border border-gray-200 dark:border-gray-700 border-b-0">
+              <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is first conceptualized and designed using the
+                Figma software so everything you see in the library has a design equivalent in our Figma file.</p>
+              <p class="text-gray-500 dark:text-gray-400">Check out the <a href="https://flowbite.com/figma/"
+                  target="_blank" class="text-blue-600 dark:text-blue-500 hover:underline">Figma design system</a> based
+                on the utility classes from Tailwind CSS and components from Flowbite.</p>
+            </div>
+          </div>
+          <h2 id="accordion-color-heading-3">
+            <button type="button"
+              class="flex items-center border focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 border-gray-200 dark:border-gray-700 justify-between p-5 w-full font-medium text-left text-gray-500 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800"
+              data-accordion-target="#accordion-color-body-3" aria-expanded="false"
+              aria-controls="accordion-color-body-3">
+              <span>What are the differences between Flowbite and Tailwind UI?</span>
+              <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+          </h2>
+          <div id="accordion-color-body-3" class="hidden" aria-labelledby="accordion-color-heading-3">
+            <div class="p-5 border border-gray-200 dark:border-gray-700 border-t-0">
+              <p class="mb-2 text-gray-500 dark:text-gray-400">The main difference is that the core components from
+                Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product. Another
+                difference is that Flowbite relies on smaller and standalone components, whereas Tailwind UI offers
+                sections of pages.</p>
+              <p class="mb-2 text-gray-500 dark:text-gray-400">However, we actually recommend using both Flowbite,
+                Flowbite Pro, and even Tailwind UI as there is no technical reason stopping you from using the best of
+                two worlds.</p>
+              <p class="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
+              <ul class="list-disc pl-5 dark:text-gray-400 text-gray-500">
+                <li><a href="https://flowbite.com/pro/" target="_blank"
+                    class="text-blue-600 dark:text-blue-500 hover:underline">Flowbite Pro</a></li>
+                <li><a href="https://tailwindui.com/" rel="nofollow" target="_blank"
+                    class="text-blue-600 dark:text-blue-500 hover:underline">Tailwind UI</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    <!-- <TimeRegistration /> -->
   </main>
 </template>
 
 <script setup lang="ts">
+import { onMounted } from 'vue';
 import InformationCard from '../components/InformationCard.vue';
 import RegistrationStep from '../components/RegistrationStep.vue';
 import TheHeader from '../components/TheHeader.vue';
 import TimeRegistration from '../components/TimeRegistration.vue';
+import { Accordion, AccordionItem } from 'flowbite';
+
+
+onMounted(() => {
+  const element:any = document.querySelector('#accordion-color');
+  const accordionItems:AccordionItem[] = [
+    {
+      id: 'accordion-color-heading-1',
+      triggerEl: document.querySelector('#accordion-color-heading-1'),
+      targetEl: document.querySelector('#accordion-color-body-1'),
+      active: true
+    },
+    {
+      id: 'accordion-color-heading-2',
+      triggerEl: document.querySelector('#accordion-color-heading-2'),
+      targetEl: document.querySelector('#accordion-color-body-2')
+    },
+    {
+      id: 'accordion-color-heading-3',
+      triggerEl: document.querySelector('#accordion-color-heading-3'),
+      targetEl: document.querySelector('#accordion-color-body-3')
+    }
+  
+  ];
+  const accordion = new Accordion(element, {
+    collapse: true,
+    activeClasses: 'bg-blue-100 dark:bg-gray-800 text-blue-600 dark:text-white'
+  });
+
+
+
+});
 </script>

@@ -1,16 +1,39 @@
 <template>
-  <RouterView/>
+  <RouterView />
 </template>
 
 <script setup lang="ts">
 
-import { onMounted } from 'vue'
+import { onMounted } from 'vue';
 import {
+  initAccordions,
+  initCarousels,
+  initCollapses,
+  initDials,
+  initDismisses,
+  initDrawers,
+  initDropdowns,
+  initModals,
+  initPopovers,
+  initTabs,
   initFlowbite,
-} from 'flowbite'
+  initTooltips
+} from 'flowbite';
 
 // initialize components based on data attribute selectors
 onMounted(() => {
-  initFlowbite()
-})
+  initFlowbite();
+  initAccordions();
+  initCarousels();
+  initCollapses();
+  initDials();
+  initDismisses();
+  initDrawers();
+  initDropdowns();
+  initModals();
+  initPopovers();
+  initTabs();
+  initTooltips();
+
+});
 </script>

@@ -69,6 +69,7 @@
                         </div>
                     </div>
                 </div>
+                
                 <div class="hs-accordion-group">
                     <div class="hs-accordion hs-accordion-active:bg-white mb-5 bg-white shadow-md rounded-xl p-6"
                         id="hs-basic-with-title-and-arrow-stretched-heading-two">
