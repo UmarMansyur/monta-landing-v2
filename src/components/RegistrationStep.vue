@@ -1,18 +1,16 @@
 <template>
-    <section class="bg-gradient-to-r from-[#181230] to-[#181230] dark:from-[#181230] dark:to-[#181230]" id="features">
+    <section class="bg-gradient-to-tl from-[#0C2D57] to-[#474F7A] dark:from-[#C08B5C] dark:to-[#FFC94A]">
         <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
             <div class="grid md:grid-cols-2 gap-12">
                 <div class="lg:w-3/4">
                     <h2 class="text-3xl text-white font-bold lg:text-4xl">
                         Temukan Judul Tugas Akhir dan Kerja Praktek dengan Mudah
                     </h2>
-                    <p class="mt-3 text-black-100">
-                        Jangan khawatir dengan judul tugas akhir dan kerja praktek yang sama, Montak akan membantu anda
-                        untuk
-                        menemukan judul yang sesuai dengan minat dan keahlian anda.
+                    <p class="mt-3 text-[#a9a4bc]">
+                        Temukan judul tugas akhir dan kerja praktek yang sesuai dengan minat dan bakatmu. Dedicate your talents to crafting solutions and innovations that will define the next era. Let your work become a beacon of progress, guiding society towards a brighter and more connected tomorrow.
                     </p>
                     <p class="mt-5">
-                        <a class="inline-flex items-center gap-x-1 font-medium text-gray-700"
+                        <a class="inline-flex items-center gap-x-1 font-medium text-gray-200 hover:text-white"
                             href="#">
                             Selengkapnya
                             <svg class="flex-shrink-0 size-4 transition ease-in-out group-hover:translate-x-1"
@@ -25,7 +23,7 @@
                     </p>
                 </div>
                 <div class="space-y-6 lg:space-y-10">
-                    <h4 class="text-2xl font-bold">Tahapan Pengajuan Proposal dan Kerja Praktek</h4>
+                    <h4 class="text-2xl font-bold text-white uppercase">Tahapan Pengajuan Proposal dan Kerja Praktek</h4>
                     <div class="flex">
                         <!-- Icon -->
                         <span
@@ -37,10 +35,10 @@
                             </svg>
                         </span>
                         <div class="ms-5 sm:ms-8">
-                            <h3 class="text-base sm:text-lg font-semibold text-black-100">
+                            <h3 class="text-base sm:text-lg font-semibold text-white">
                                 Memprogram Kerja Praktek/Tugas Akhir
                             </h3>
-                            <p class="mt-1 text-sm text-gray-600">
+                            <p class="mt-1 text-sm text-[#a9a4bc]">
                                 Langkah pertama yang harus dilakukan adalah memprogram kerja praktek atau tugas akhir
                                 melalui SIMAT.
                                 Khusus kerja Praktek hanya ada di Fakultas Teknik.
@@ -59,10 +57,10 @@
 
                         </span>
                         <div class="ms-5 sm:ms-8">
-                            <h3 class="text-base sm:text-lg font-semibold text-black-100">
+                            <h3 class="text-base sm:text-lg font-semibold text-white">
                                 Telah Melunasi Tagihan di SIMAT
                             </h3>
-                            <p class="mt-1 text-gray-600">
+                            <p class="mt-1 text-[#a9a4bc]">
                                 Untuk dapat melakukan pengajuan proposal diwajibkan untuk melunasi tagihan keuangan
                                 terlebih dahulu di
                                 SIMAT.
@@ -81,10 +79,10 @@
 
                         </span>
                         <div class="ms-5 sm:ms-8">
-                            <h3 class="text-base sm:text-lg font-semibold text-black-100">
+                            <h3 class="text-base sm:text-lg font-semibold text-white">
                                 Heregistrasi Pengajuan Proposal dan Kerja Praktek
                             </h3>
-                            <p class="mt-1 text-gray-600 text-sm">
+                            <p class="mt-1 text-[#a9a4bc] text-sm">
                                 Heregistrasi untuk pengajuan proposal dan kerja praktek dapat dilakukan melalui
                                 masing-masing
                                 fakultas.
@@ -103,10 +101,10 @@
 
                         </span>
                         <div class="ms-5 sm:ms-8">
-                            <h3 class="text-base sm:text-lg font-semibold text-black-100">
+                            <h3 class="text-base sm:text-lg font-semibold text-white">
                                 Megupload Judul Proposal dan Kerja Praktek di Montak
                             </h3>
-                            <p class="mt-1 text-sm text-gray-600">
+                            <p class="mt-1 text-sm text-[#a9a4bc]">
                                 Setelah melakukan heregistrasi, selanjutnya mahasiswa dapat mengupload judul proposal
                                 dan kerja
                                 praktek

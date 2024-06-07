@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-gradient-to-b from-gray-100 to-white">
+    <section class="bg-gradient-to-tr from-gray-200 to-transparent">
         <div class="w-full px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
             <div class="mx-auto text-center mb-10 lg:mb-14">
                 <h2 class="text-2xl font-bold md:text-4xl md:leading-tight">PERTANYAAN YANG SERING DI AJUKAN</h2>
