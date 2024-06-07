@@ -22,5 +22,8 @@ function toggleAccordion(parentId: string, items: AccordionItem[]) {
 
     const accordion = new Accordion(element, accordionItems, options, instanceOptions);
     accordion.open(items[0].id);
-    console.log(accordion);
 }
+
+export  {
+    toggleAccordion
+};

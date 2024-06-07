@@ -128,166 +128,17 @@
 
     <InformationCard />
     <RegistrationStep />
-    <div class="container mx-auto mt-5">
+    <div class="container mx-auto mt-5 px-5 sm:px-52 pt-5">
       <p class="text-center text-ld font-semibold text-green-500">#Tanya MONTAK</p>
       <h1 class="text-center text-4xl uppercase font-bold">Requently Asked Questions
         <br>
         <span>😊</span>
       </h1>
-      <div class="flex justify-center w-full items-center gap-10">
-        <div class="flex justify-end items-center">
-          <img src="/images/device-frame.png" alt="faq" class="w-52">
-        </div>
-        <div class="flex flex-col space-y-3">
-          <div id="accordion-flush" data-accordion="collapse">
-            <!-- Faq 1 -->
-            <h2 id="accordion-faq-1" class="mb-3">
-              <button type="button"
-                class="flex items-center justify-between bg-white p-3 rounded-t-md rounded-b-md w-full font-medium text-start dark:border-gray-700 dark:text-gray-400 gap-3 text-sm"
-                data-accordion-target="#accordion-faq-body-1" aria-expanded="true" aria-controls="accordion-faq-body-1">
-                <span> Apakah MONTAK dapat diakses oleh semua fakultas di Universitas Madura?</span>
-                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M9 5 5 1 1 5" />
-                </svg>
-              </button>
-            </h2>
-            <div id="accordion-faq-body-1" class="text-xs bg-white px-3 pb-3 rounded-b-md hidden"
-              aria-labelledby="accordion-faq-1">
-              <div class=" dark:border-gray-700">
-                <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is an open-source library of interactive
-                  components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more.</p>
-                <p class="text-gray-500 dark:text-gray-400">Check out this guide to learn how to <a
-                    href="/docs/getting-started/introduction/"
-                    class="text-blue-600 dark:text-blue-500 hover:underline">get started</a> and start developing
-                  websites even faster with components on top of Tailwind CSS.</p>
-              </div>
-            </div>
-            <!-- Faq 2 -->
-            <h2 id="accordion-faq-2" class="mb-3">
-              <button type="button"
-                class="flex items-center justify-between bg-white p-3 rounded-t-md rounded-b-md w-full font-medium text-start dark:border-gray-700 dark:text-gray-400 gap-3 text-sm"
-                data-accordion-target="#accordion-faq-body-2" aria-expanded="true" aria-controls="accordion-faq-body-2">
-                <span> Apakah MONTAK dapat diakses oleh semua fakultas di Universitas Madura?</span>
-                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M9 5 5 1 1 5" />
-                </svg>
-              </button>
-            </h2>
-            <div id="accordion-faq-body-2" class="text-xs bg-white px-3 pb-3 rounded-b-md hidden"
-              aria-labelledby="accordion-faq-2">
-              <div class=" dark:border-gray-700">
-                <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is an open-source library of interactive
-                  components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more.</p>
-                <p class="text-gray-500 dark:text-gray-400">Check out this guide to learn how to <a
-                    href="/docs/getting-started/introduction/"
-                    class="text-blue-600 dark:text-blue-500 hover:underline">get started</a> and start developing
-                  websites even faster with components on top of Tailwind CSS.</p>
-              </div>
-            </div>
-            <!-- Faq 3 -->
-            <h2 id="accordion-faq-3" class="mb-3">
-              <button type="button"
-                class="flex items-center justify-between bg-white p-3 rounded-t-md rounded-b-md w-full font-medium text-start dark:border-gray-700 dark:text-gray-400 gap-3 text-sm"
-                data-accordion-target="#accordion-faq-body-3" aria-expanded="true" aria-controls="accordion-faq-body-3">
-                <span> Apakah MONTAK dapat diakses oleh semua fakultas di Universitas Madura?</span>
-                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M9 5 5 1 1 5" />
-                </svg>
-              </button>
-            </h2>
-            <div id="accordion-faq-body-3" class="text-xs bg-white px-3 pb-3 rounded-b-md hidden"
-              aria-labelledby="accordion-faq-3">
-              <div class=" dark:border-gray-700">
-                <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is an open-source library of interactive
-                  components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more.</p>
-                <p class="text-gray-500 dark:text-gray-400">Check out this guide to learn how to <a
-                    href="/docs/getting-started/introduction/"
-                    class="text-blue-600 dark:text-blue-500 hover:underline">get started</a> and start developing
-                  websites even faster with components on top of Tailwind CSS.</p>
-              </div>
-            </div>
-            <!-- Faq 4 -->
-            <h2 id="accordion-faq-4" class="mb-3">
-              <button type="button"
-                class="flex items-center justify-between bg-white p-3 rounded-t-md rounded-b-md w-full font-medium text-start dark:border-gray-700 dark:text-gray-400 gap-3 text-sm"
-                data-accordion-target="#accordion-faq-body-4" aria-expanded="true" aria-controls="accordion-faq-body-4">
-                <span> Apakah MONTAK dapat diakses oleh semua fakultas di Universitas Madura?</span>
-                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M9 5 5 1 1 5" />
-                </svg>
-              </button>
-            </h2>
-            <div id="accordion-faq-body-4" class="text-xs bg-white px-3 pb-3 rounded-b-md hidden"
-              aria-labelledby="accordion-faq-4">
-              <div class=" dark:border-gray-700">
-                <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is an open-source library of interactive
-                  components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more.</p>
-                <p class="text-gray-500 dark:text-gray-400">Check out this guide to learn how to <a
-                    href="/docs/getting-started/introduction/"
-                    class="text-blue-600 dark:text-blue-500 hover:underline">get started</a> and start developing
-                  websites even faster with components on top of Tailwind CSS.</p>
-              </div>
-            </div>
-            <!-- Faq 5 -->
-            <h2 id="accordion-faq-5" class="mb-3">
-              <button type="button"
-                class="flex items-center justify-between bg-white p-3 rounded-t-md rounded-b-md w-full font-medium text-start dark:border-gray-700 dark:text-gray-400 gap-3 text-sm"
-                data-accordion-target="#accordion-faq-body-5" aria-expanded="true" aria-controls="accordion-faq-body-5">
-                <span> Apakah MONTAK dapat diakses oleh semua fakultas di Universitas Madura?</span>
-                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M9 5 5 1 1 5" />
-                </svg>
-              </button>
-            </h2>
-            <div id="accordion-faq-body-5" class="text-xs bg-white px-3 pb-3 rounded-b-md hidden"
-              aria-labelledby="accordion-faq-5">
-              <div class=" dark:border-gray-700">
-                <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is an open-source library of interactive
-                  components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more.</p>
-                <p class="text-gray-500 dark:text-gray-400">Check out this guide to learn how to <a
-                    href="/docs/getting-started/introduction/"
-                    class="text-blue-600 dark:text-blue-500 hover:underline">get started</a> and start developing
-                  websites even faster with components on top of Tailwind CSS.</p>
-              </div>
-            </div>
-            <!-- Faq 6 -->
-            <h2 id="accordion-faq-6" class="mb-3">
-              <button type="button"
-                class="flex items-center justify-between bg-white p-3 rounded-t-md rounded-b-md w-full font-medium text-start dark:border-gray-700 dark:text-gray-400 gap-3 text-sm"
-                data-accordion-target="#accordion-faq-body-6" aria-expanded="true" aria-controls="accordion-faq-body-6">
-                <span> Apakah MONTAK dapat diakses oleh semua fakultas di Universitas Madura?</span>
-                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M9 5 5 1 1 5" />
-                </svg>
-              </button>
-            </h2>
-            <div id="accordion-faq-body-6" class="text-xs bg-white px-3 pb-3 rounded-b-md hidden"
-              aria-labelledby="accordion-faq-6">
-              <div class=" dark:border-gray-700">
-                <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is an open-source library of interactive
-                  components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more.</p>
-                <p class="text-gray-500 dark:text-gray-400">Check out this guide to learn how to <a
-                    href="/docs/getting-started/introduction/"
-                    class="text-blue-600 dark:text-blue-500 hover:underline">get started</a> and start developing
-                  websites even faster with components on top of Tailwind CSS.</p>
-              </div>
-            </div>
-          </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 justify-center gap-10 pt-5">
+        <div class="">
+          <Faq/>
         </div>
       </div>
-
     </div>
     <TimeRegistration />
   </main>
