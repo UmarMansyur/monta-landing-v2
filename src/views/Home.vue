@@ -1,6 +1,7 @@
 <template>
   <TheHeader></TheHeader>
   <main id="content" class="mt-20 sm:mt-0">
+
     <HeroSection />
     <InformationCard />
     <section>
@@ -62,22 +63,24 @@
         </div>
       </div>
     </section>
-    <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="bg-blue-500 rounded-md p-3 text-white">
-        <div class="flex space-x-3 items-center">
-          <div>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
-              <path fill-rule="evenodd"
-                d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm8.706-1.442c1.146-.573 2.437.463 2.126 1.706l-.709 2.836.042-.02a.75.75 0 0 1 .67 1.34l-.04.022c-1.147.573-2.438-.463-2.127-1.706l.71-2.836-.042.02a.75.75 0 1 1-.671-1.34l.041-.022ZM12 9a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Z"
-                clip-rule="evenodd" />
-            </svg>
+    <section>
+      <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-blue-500 rounded-md p-3 text-white">
+          <div class="flex space-x-3 items-center">
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                <path fill-rule="evenodd"
+                  d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm8.706-1.442c1.146-.573 2.437.463 2.126 1.706l-.709 2.836.042-.02a.75.75 0 0 1 .67 1.34l-.04.022c-1.147.573-2.438-.463-2.127-1.706l.71-2.836-.042.02a.75.75 0 1 1-.671-1.34l.041-.022ZM12 9a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Z"
+                  clip-rule="evenodd" />
+              </svg>
+            </div>
+            <p class="text-sm">
+              <span class="font-bold">Info:</span> Pengajuan judul dapat dilakukan di Fakultas masing-masing.
+            </p>
           </div>
-          <p class="text-sm">
-            <span class="font-bold">Info:</span> Pengajuan judul dapat dilakukan di Fakultas masing-masing.
-          </p>
         </div>
       </div>
-    </div>
+    </section>
     <section>
       <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-10 mx-auto">
         <p class=" text-green-500 font-medium">#Fitur</p>
@@ -195,7 +198,8 @@
           <div class="flex flex-col gap-5">
             <div class="flex gap-5 items-center">
               <div class="w-16 h-16 bg-gray-300 rounded-full p-1 flex overflow-hidden">
-                <img src="https://api.unira.ac.id/img/profil/mhs/d9674b9d198eecaa13f3f057d5390a12.jpg" alt="image" class="w-full h-auto rounded-full object-cover">
+                <img src="https://api.unira.ac.id/img/profil/mhs/d9674b9d198eecaa13f3f057d5390a12.jpg" alt="image"
+                  class="w-full h-auto rounded-full object-cover">
               </div>
               <div>
                 <h2 class="text-lg font-bold">Muhammad Umar Mansyur</h2>
@@ -203,13 +207,15 @@
               </div>
             </div>
             <p class="text-gray-500">
-              "MONTAK sangat membantu saya dalam melakukan pengajuan judul Tugas Akhir. Saya tidak perlu lagi datang ke kampus hanya untuk mengajukan judul. Terima kasih MONTAK!"
+              "MONTAK sangat membantu saya dalam melakukan pengajuan judul Tugas Akhir. Saya tidak perlu lagi datang ke
+              kampus hanya untuk mengajukan judul. Terima kasih MONTAK!"
             </p>
           </div>
           <div class="flex flex-col gap-5">
             <div class="flex gap-5 items-center">
               <div class="w-16 h-16 bg-gray-300 rounded-full p-1">
-                <img src="https://api.unira.ac.id/img/profil/dkr/7104313573_thumb.jpg?1717816213474" alt="image" class="w-full h-auto rounded-full object-cover">
+                <img src="https://api.unira.ac.id/img/profil/dkr/7104313573_thumb.jpg?1717816213474" alt="image"
+                  class="w-full h-auto rounded-full object-cover">
               </div>
               <div>
                 <h2 class="text-lg font-bold">MATSAINI, ST, MT</h2>
@@ -217,24 +223,77 @@
               </div>
             </div>
             <p class="text-gray-500">
-              "Terima kasih MONTAK, ide saya untuk penelitian Tugas Akhir dapat terwujud dengan adanya platform ini. Saya juga dapat memberikan bimbingan secara online kepada mahasiswa."
+              "Terima kasih MONTAK, ide saya untuk penelitian Tugas Akhir dapat terwujud dengan adanya platform ini.
+              Saya juga dapat memberikan bimbingan secara online kepada mahasiswa."
             </p>
           </div>
         </div>
       </div>
     </section>
     <section id="skripsi" class="bg-[#181230]">
-      <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 pb-10">
-        <div class="flex">
-          <div class="w-1/2">
-            <!-- <img src="/images/hero-image.png" alt="image" class="w-full h-auto object-cover"> -->
-          </div>
-          <div class="w-1/2 flex flex-col justify-center">
+      <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 overflow-hidden h-[34rem]">
+        <div class="flex space-x-10 h-full">
+          <div class="w-1/2 px-28 py-10 text-white shrink-0">
+            <p class="text-green-500">Start Your In Future</p>
             <h1 class="text-white
-            sm:text-3xl uppercase font-bold">
-              Butuh Bantuan dalam Penulisan Skripsi?
+            sm:text-xl font-bold">
+              Mulai Pengajuan Judul <br> Tugas Akhir & Kerja Praktek
+              <span>🚀</span>
             </h1>
+            <p class="text-xs mt-5 text-[#a9a4bc]">
+              MONTAK memudahkan mahasiswa dalam melakukan pengajuan judul Tugas Akhir dan Kerja Praktek. Mulai dari
+              pengajuan judul, bimbingan online, hingga evaluasi dan penilaian.
+            </p>
+            <div class="flex">
+              <a href="/login" class="bg-blue-500 text-white px-5 py-1 text-sm rounded-full mt-5 font-bold">Masuk</a>
+              <a href="/register"
+                class="bg-white text-gray-900 px-5 py-1 text-sm rounded-full mt-5 ml-5 font-bold">Daftar</a>
             </div>
+          </div>
+          <div class="relative overflow-hidden flex gap-10">
+            <div class="grid gap-4 animate-marquee w-1/2">
+              <div v-for="i in 10" class="flex">
+                <div class="bg-white gap-2 p-4 rounded-xl justify-between h-48 overflow-hidden">
+                  <h1 class="text-sm font-bold uppercase text-blue-700">Tugas Akhir</h1>
+                  <p class="text-xs">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem rem, atque, veritatis accusantium, aliquid iusto dignissimos suscipit consequatur dolore a officia ab! Ipsam omnis quaerat eveniet est laudantium, quam minima!
+                  </p>
+                  <div class="flex gap-4">
+                    <div class="w-10 h-10 bg-gray-300 rounded-full flex shrink-0">
+                      <img src="https://api.unira.ac.id/img/profil/mhs/d9674b9d198eecaa13f3f057d5390a12.jpg" alt=""
+                        class="w-10 h-auto rounded-full object-cover">
+                    </div>
+                    <div class="my-auto">
+                      <h2 class="text-[10px] font-bold">Muhammad Umar Mansyur</h2>
+                      <p class="text-[8px]">Mahasiswa Fakultas Teknik Informatika</p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid gap-4 animate-marquee w-1/2">
+              <div v-for="i in 10" class="flex">
+                <div class="bg-white gap-2 p-4 rounded-xl justify-between">
+                  <h1 class="text-sm font-bold uppercase text-blue-700">Tugas Akhir</h1>
+                  <p class="text-xs">
+                   asdfsdf
+                  </p>
+                  <div class="flex gap-4">
+                    <div class="w-10 h-10 bg-gray-300 rounded-full flex shrink-0">
+                      <img src="https://api.unira.ac.id/img/profil/mhs/d9674b9d198eecaa13f3f057d5390a12.jpg" alt=""
+                        class="w-10 h-auto rounded-full object-cover">
+                    </div>
+                    <div class="my-auto">
+                      <h2 class="text-[10px] font-bold">Muhammad Umar Mansyur</h2>
+                      <p class="text-[8px]">Mahasiswa Fakultas Teknik Informatika</p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 

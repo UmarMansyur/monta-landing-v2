@@ -8,15 +8,19 @@ export default {
   ],
   theme: {
     extend: {
-      KeyframeEffect: {
-        underline: {
-          // underline animation
-          '0%': { width: '0%' },
-          '100%': { width: '100%' },
-        }
-      },
       animation: {
-        underline: 'underline 0.5s ease-in-out forwards',
+        marquee: 'marquee 3s ease-in-out infinite alternate',
+        marquee2: 'marquee 3s ease-in-out infinite alternate-reverse',
+      },
+      keyframes: {
+        marquee: {
+          '0%': { transform: 'translateY(0%)' },
+          '100%': { transform: 'translateY(-10%)' },
+        },
+        marquee2: {
+          '-10%': { transform: 'translateY(10%)' },
+          '100%': { transform: 'translateY(0%)' },
+        },
       },
       fontFamily: {
         'sans': ['Poppins', ...defaultTheme.fontFamily.sans],
@@ -24,7 +28,7 @@ export default {
       // set body to color gray-100
       colors: {
         'black-100': '#34364a',
-      }
+      },
     },
     variants: {
       extend: {
