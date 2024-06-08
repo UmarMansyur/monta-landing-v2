@@ -1,7 +1,7 @@
 <template>
-    <section class=" mx-auto bg-white">
+    <section class=" mx-auto mt-2 bg-white">
       <!-- Features -->
-      <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+      <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-2 mx-auto">
         <!-- Grid -->
         <div class="grid items-center lg:grid-cols-12 gap-6 lg:gap-12">
           <div class="lg:col-span-4">

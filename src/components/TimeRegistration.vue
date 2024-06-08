@@ -1,9 +1,10 @@
 <template>
-    <section class="my-10">
+    <section class="my-16 container mx-auto">
         <div class="text-center">
+            <p class="text-sm font-bold text-green-600">#Waktu Pengajuan</p>
             <h1 class="text-4xl font-bold mb-5">PERIODE PENGAJUAN JUDUL KP/TA</h1>
         </div>
-        <div class="sm:mx-2 md:mx-10">
+        <div class="mx-5">
             <div class="flex flex-col">
                 <div class="flex w-full justify-between items-center">
                     <div>
@@ -40,7 +41,7 @@
 
                 </div>
                 <div class="overflow-x-auto mt-3">
-                    <div class="p-1.5 min-w-full inline-block align-middle">
+                    <div class=" min-w-full inline-block align-middle">
                         <div class="overflow-hidden">
                             <table class="min-w-full divide-y divide-gray-200 ">
                                 <tbody>

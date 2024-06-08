@@ -1,9 +1,9 @@
 <template>
-    <section class="my-10">
+    <section class="my-10 container mx-auto px-5">
         <div class="text-center">
             <h1 class="text-4xl font-bold mb-5">Biaya</h1>
         </div>
-        <div class="sm:mx-2 md:mx-10">
+        <div>
             <div class="flex flex-col">
                 <div class="flex w-full justify-between items-center">
                     <div>
@@ -38,7 +38,7 @@
 
                 </div>
                 <div class="overflow-x-auto mt-3">
-                    <div class="p-1.5 min-w-full inline-block align-middle">
+                    <div class="min-w-full inline-block align-middle">
                         <div class="overflow-hidden">
                             <table class="min-w-full divide-y divide-gray-200">
                                 <thead>
