@@ -7,7 +7,7 @@
           <img src="/images/logo-unira.png" class="h-8" alt="Flowbite Logo" />
           <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">MONTAK</span>
         </a>
-        <div class="flex md:order-2 my-auto md:space-x-0 rtl:space-x-reverse gap-2">
+        <div class="flex md:hidden lg:block md:order-2 my-auto md:space-x-0 rtl:space-x-reverse gap-2">
           <button type="button"
             class="text-white bg-gradient-to-r from-gray-500 via-gray-600 to-gray-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-gray-300 dark:focus:ring-gray-800 shadow-lg shadow-gray-500/50 dark:shadow-lg dark:shadow-gray-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 inline-flex gap-2 items-center">
             <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"

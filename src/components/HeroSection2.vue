@@ -1,9 +1,8 @@
 <template>
-  <section class="relative bg-[#f6f8fd] pt-20 sm:py-0">
+  <section class="relative bg-[#f6f8fd] pt-20 sm:py-0 md:py-0 lg:py-12 xl:py-0">
     <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid lg:grid-cols-7 lg:gap-x-8 xl:gap-x-12 lg:items-center">
-
-        <div class="lg:col-span-3">
+      <div class="grid md:grid-cols-7 lg:grid-cols-7 lg:gap-x-8 xl:gap-x-12 lg:items-center">
+        <div class="lg:col-span-3 sm:col-span-3">
 
           <div class="inline-block">
             <div class="bg-white shadow-sm rounded-full flex px-5 py-2 gap-4">
@@ -117,13 +116,13 @@
             </div>
           </div>
         </div>
-        <div class="lg:col-span-4 mt-10 lg:mt-0 relative flex">
-          <img class="w-full h-auto object-cover" src="/images/hero-img.png" alt="hero-img">
+        <div class="lg:col-span-4 mt-10 lg:mt-0 relative md:col-span-4">
+          <img class="w-full h-auto object-cover md:w-auto sm:w-96 lg:w-auto" src="/images/hero-img.png" alt="hero-img">
         </div>
       </div>
     </div>
     <figure>
-      <img class="w-full h-auto absolute bottom-0 -mb-2" src="/images/clouds.png" alt="Image Description absolute">
+      <img class="w-full h-auto absolute bottom-0 -mb-2 lg:-mb-2 md:-mb-10" src="/images/clouds.png" alt="Image Description absolute">
     </figure>
 
   </section>

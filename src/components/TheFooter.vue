@@ -1,6 +1,6 @@
 <template>
     <footer>
-        <div class="mx-auto w-full container px-5 mt-auto lg:py-8">
+        <div class="mx-auto w-full container px-5 mt-auto lg:py-8 py-8">
             <div class="md:flex md:justify-between mt-10">
                 <div class="mb-6 md:mb-0">
                     <a href="https://flowbite.com/" class="flex items-center">

@@ -112,7 +112,7 @@
                                 stroke-width="10" stroke-linecap="round"></path>
                         </svg>
                     </div>
-                    <img src="/images/device-frame.png" alt="image" class="w-72 h-auto object-cover">
+                    <img src="/images/device-frame.png" alt="image" class="w-72 lg:w-72 md:w-auto h-auto object-cover">
                 </div>
             </div>
         </div>

@@ -1,5 +1,5 @@
 <template>
-    <section class=" mx-auto mt-2 bg-white">
+    <section class=" mx-auto mt-2 lg:mt-2 bg-white">
       <!-- Features -->
       <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-2 mx-auto">
         <!-- Grid -->
