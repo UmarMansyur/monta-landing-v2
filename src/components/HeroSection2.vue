@@ -1,5 +1,5 @@
 <template>
-  <section class="relative bg-[#f6f8fd] pt-20 sm:py-0 md:py-0 lg:py-12 xl:py-0">
+  <section class="relative bg-[#f6f8fd] pt-20 sm:py-0 md:py-12 lg:py-12 xl:py-0">
     <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid md:grid-cols-7 lg:grid-cols-7 lg:gap-x-8 xl:gap-x-12 lg:items-center">
         <div class="lg:col-span-3 sm:col-span-3">
