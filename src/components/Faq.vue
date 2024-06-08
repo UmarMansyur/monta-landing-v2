@@ -1,9 +1,9 @@
 <template>
   <div :id="'accordion-' + props.id" data-accordion="collapse" class="flex flex-col gap-y-5">
     <div v-for="faq in props.faqs" :key="faq.id" class="w-full">
-      <h2 :id="'accordion-faq-' + faq.id" class="bg-white rounded-md text-gray-950">
+      <h2 :id="'accordion-faq-' + faq.id" class="bg-[#f6f8fd] rounded-md text-gray-950">
         <button type="button"
-          class="flex items-center justify-between bg-white p-5 rounded-t-md rounded-b-md w-full font-medium text-start gap-3 text-sm"
+          class="flex items-center justify-between bg-[#f6f8fd] p-5 rounded-t-md rounded-b-md w-full font-medium text-start gap-3 text-sm"
           :data-accordion-target="'#accordion-faq-body-' + faq.id" aria-expanded="true"
           :aria-controls="'accordion-faq-body-' + faq.id">
           <span>{{ faq.title }}</span>
@@ -14,9 +14,9 @@
           </svg>
         </button>
       </h2>
-      <div :id="'accordion-faq-body-' + faq.id" class="text-xs bg-white px-5 pb-5 rounded-b-md hidden"
+      <div :id="'accordion-faq-body-' + faq.id" class="text-xs bg-[#f6f8fd] px-5 pb-5 rounded-b-md hidden"
         aria-labelledby="accordion-faq-1">
-        <div class=" dark:border-gray-400">
+        <div class=" dark:border-gray-400 pt-5">
           <p>{{ faq.content }}</p>
         </div>
       </div>
