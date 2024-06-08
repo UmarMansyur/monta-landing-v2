@@ -1,5 +1,5 @@
 <template>
-  <section class="relative bg-[#f6f8fd] py-20 sm:py-0">
+  <section class="relative bg-[#f6f8fd] pt-20 sm:py-0">
     <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid lg:grid-cols-7 lg:gap-x-8 xl:gap-x-12 lg:items-center">
 
@@ -117,9 +117,8 @@
             </div>
           </div>
         </div>
-        <div class="lg:col-span-4 mt-10 lg:mt-0 relative">
-          <img class="w-full h-auto" src="/images/hero-img.png" alt="hero-img">
-
+        <div class="lg:col-span-4 mt-10 lg:mt-0 relative flex">
+          <img class="w-full h-auto object-cover" src="/images/hero-img.png" alt="hero-img">
         </div>
       </div>
     </div>
