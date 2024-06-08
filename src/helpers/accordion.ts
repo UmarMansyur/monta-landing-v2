@@ -10,7 +10,7 @@ function toggleAccordion(parentId: string, items: AccordionItem[]) {
   const accordionItems: AccordionItem[] = items;
   const options: AccordionOptions = {
     alwaysOpen: false,
-    onOpen(accordion, item) {
+    onOpen(_: any, item: any) {
       item.active = true;
       accordionItems.forEach((i) => {
         if (i.id !== item.id) {
@@ -24,10 +24,11 @@ function toggleAccordion(parentId: string, items: AccordionItem[]) {
         }
       });
     },
-    onToggle(accordion, item) {
+    onToggle(_: any, item: any) {
       document
         .querySelector(`#${item.id} button svg[data-accordion-icon]`)
         ?.classList.toggle("rotate-180");
+        document.getElementById(item.id)?.classList.toggle("rounded-b");
     },
   };
   const instanceOptions: InstanceOptions = {

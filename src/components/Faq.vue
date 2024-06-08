@@ -1,7 +1,7 @@
 <template>
   <div :id="'accordion-' + props.id" data-accordion="collapse" class="flex flex-col gap-y-5">
     <div v-for="faq in props.faqs" :key="faq.id" class="w-full">
-      <h2 :id="'accordion-faq-' + faq.id" class="bg-[#f6f8fd] rounded-md text-gray-950">
+      <h2 :id="'accordion-faq-' + faq.id" class="bg-[#f6f8fd] rounded-t-md text-gray-950">
         <button type="button"
           class="flex items-center justify-between bg-[#f6f8fd] p-5 rounded-t-md rounded-b-md w-full font-medium text-start gap-3 text-sm"
           :data-accordion-target="'#accordion-faq-body-' + faq.id" aria-expanded="true"

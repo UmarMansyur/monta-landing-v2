@@ -1,5 +1,5 @@
 <template>
-  <section class="relative bg-[#f6f8fd]">
+  <section class="relative bg-[#f6f8fd] py-20 sm:py-0">
     <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid lg:grid-cols-7 lg:gap-x-8 xl:gap-x-12 lg:items-center">
 
@@ -12,7 +12,7 @@
               <img src="/images/logo-unira.png" alt="UNIRA" class="h-8">
             </div>
           </div>
-          <h6 class="text-green-400 text-xl">#KeepSmile</h6>
+          <h6 class="text-green-400 text-xl py-2">#KeepSmile</h6>
           <h1 class="block text-3xl font-medium text-gray-800 sm:text-4xl md:text-5xl lg:text-7xl">
             Welcome To
           </h1> <span
@@ -118,7 +118,6 @@
           </div>
         </div>
         <div class="lg:col-span-4 mt-10 lg:mt-0 relative">
-          <img class="w-28 absolute -z-20 mt-96" src="/images/patern.svg" alt="patern">
           <img class="w-full h-auto" src="/images/hero-img.png" alt="hero-img">
 
         </div>
