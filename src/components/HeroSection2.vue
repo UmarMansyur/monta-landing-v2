@@ -1,11 +1,11 @@
 <template>
-  <section class="relative bg-[#f6f8fd] pt-20 sm:py-0 md:py-16 lg:py-12 xl:py-0">
-    <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid md:grid-cols-7 lg:grid-cols-7 lg:gap-x-8 xl:gap-x-12 lg:items-center">
+  <section class="relative bg-[#f6f8fd] pt-20 sm:pt-20 md:pt-16 xl:py-0">
+    <div class="max-w-[85rem] mx-auto px-4 sm:px-6 md: lg:px-8">
+      <div class="grid md:grid-cols-1 lg:grid-cols-7 lg:gap-x-8 xl:gap-x-12 lg:items-center">
         <div class="lg:col-span-3 sm:col-span-3">
 
           <div class="inline-block">
-            <div class="bg-white shadow-sm rounded-full flex px-5 py-2 gap-4">
+            <div class="bg-white shadow-sm rounded-full flex px-5 p-2 py-15 gap-4">
               <img src="/images/kemendikbud.png" alt="Kemendikbud" class="h-8">
               <img src="/images/kampus-merdeka.png" alt="Kampus Merdeka" class="h-8">
               <img src="/images/logo-unira.png" alt="UNIRA" class="h-8">
@@ -116,14 +116,13 @@
             </div>
           </div>
         </div>
-        <div class="lg:col-span-4 mt-10 lg:mt-0 relative md:col-span-4">
-          <img class="w-full h-auto object-cover md:w-auto sm:w-96 lg:w-auto" src="/images/hero-img.png" alt="hero-img">
+        <div class="lg:col-span-4 mt-10 lg:mt-0 md:flex md:w-full bg-bl relative">
+          <img class="w-full h-auto object-cover md:w-auto lg:w-auto" src="/images/hero-img.png" alt="hero-img">
         </div>
       </div>
     </div>
     <figure>
       <img class="w-full h-auto absolute bottom-0 -mb-2 lg:-mb-2 md:-mb-10" src="/images/clouds.png" alt="Image Description absolute">
     </figure>
-
   </section>
 </template>
