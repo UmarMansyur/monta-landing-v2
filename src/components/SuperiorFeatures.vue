@@ -101,7 +101,7 @@
                     </div>
                 </div>
                 <div class="shrink-0 ms-auto flex w-full justify-center py-10 relative">
-                    <div class="absolute top-0 sm:right-24 right-0">
+                    <div class="absolute top-0 sm:hidden right-0">
                         <svg class="w-16 h-auto text-orange-500" width="121" height="135" viewBox="0 0 121 135"
                             fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M5 16.4754C11.7688 27.4499 21.2452 57.3224 5 89.0164" stroke="currentColor"
