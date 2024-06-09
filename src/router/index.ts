@@ -6,7 +6,12 @@ const routes: Array<RouteRecordRaw> = [
         path: '/',
         name: 'Beranda',
         component: () => import('../views/Home.vue')
-    }
+    },
+    {
+        path: '/auth',
+        name: 'Login',
+        component: () => import('../views/Authentication.vue')
+    },
 ];
 
 const router = createRouter({

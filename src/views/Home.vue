@@ -1,24 +1,19 @@
 <template>
-  <TheHeader></TheHeader>
-  <main id="content" class="sm:mt-0">
+  <Parent>
     <HeroSection />
     <InformationCard />
     <RegistrationStep />
-    <Alert/>
+    <Alert />
     <SuperiorFeatures />
     <Testimonial />
-    <Skripsi/>
-    <Faqs/>
-  </main>
-  <TheFooter />
+    <Skripsi />
+  </Parent>
 </template>
 
 <script setup lang="ts">
+import Parent from './Parent.vue';
 import Alert from '../components/Alert.vue';
 import InformationCard from '../components/InformationCard.vue';
-import Faqs from '../components/Faqs.vue';
-import TheHeader from '../components/TheHeader.vue';
-import TheFooter from '../components/TheFooter.vue';
 import HeroSection from '../components/HeroSection2.vue';
 import RegistrationStep from '../components/RegistrationStep.vue';
 import SuperiorFeatures from '../components/SuperiorFeatures.vue';
