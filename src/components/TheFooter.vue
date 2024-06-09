@@ -1,14 +1,24 @@
 <template>
     <footer>
-        <div class="mx-auto w-full container px-5 mt-auto lg:py-8 py-8">
+        <div class="mx-auto w-full px-3 container mt-auto lg:py-4 py-4">
             <div class="md:flex md:justify-between mt-10">
-                <div class="mb-6 md:mb-0">
+                <div class="md:mb-0">
                     <a href="https://flowbite.com/" class="flex items-center">
                         <img src="/images/logo-unira.png" class="h-8 me-3" alt="FlowBite Logo" />
                         <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">MONTAK</span>
                     </a>
                     <p>
-
+                        <span class="text-gray-500 text-sm dark:text-gray-400">Jl. Raya Panglegur No.Km 3,5, Barat, Panglegur, Kec. Tlanakan, <br> Kabupaten Pamekasan, Jawa Timur 69371</span>
+                    </p>
+                    <p>
+                        <span class="text-gray-500 text-sm dark:text-gray-400">Telp. (0324) 322231</span>
+                    </p>
+                    <p>
+                        <span class="text-gray-500 text-sm dark:text-gray-400">Email:
+                            <a href="mailto:info@unira.ac.id" class="hover:underline">
+                                info@unira.ac.id
+                            </a>
+                        </span>
                     </p>
                 </div>
                 <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -65,7 +75,7 @@
                     </div>
                 </div>
             </div>
-            <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+            <hr class=" border-gray-200 sm:mx-auto dark:border-gray-700 my-3" />
             <div class="sm:flex sm:items-center sm:justify-between">
                 <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a
                         href="https://flowbite.com/" class="hover:underline">Universitas Madura</a>. All Rights

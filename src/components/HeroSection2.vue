@@ -1,22 +1,25 @@
 <template>
   <section class="relative bg-[#f6f8fd] pt-20 sm:pt-20 md:pt-16 xl:py-0">
-    <div class="max-w-[85rem] mx-auto px-4 sm:px-6 md: lg:px-8">
+    <div class="container mx-auto px-4 sm:px-6 md: lg:px-3">
       <div class="grid md:grid-cols-7 lg:grid-cols-7 lg:gap-x-8 xl:gap-x-12 lg:items-center">
         <div class="lg:col-span-3 sm:col-span-3 md:col-span-3">
-
-          <div class="inline-block">
+          <div class="inline-block animate-fade-right">
             <div class="bg-white shadow-sm rounded-full flex px-5 p-2 py-15 gap-4">
               <img src="/images/kemendikbud.png" alt="Kemendikbud" class="h-8">
               <img src="/images/kampus-merdeka.png" alt="Kampus Merdeka" class="h-8">
               <img src="/images/logo-unira.png" alt="UNIRA" class="h-8">
             </div>
           </div>
-          <h6 class="text-green-400 text-xl py-2">#KeepSmile</h6>
-          <h1 class="block text-3xl font-medium text-gray-800 sm:text-4xl md:text-5xl lg:text-7xl">
-            Welcome To
-          </h1> <span
-            class="text-blue-600 text-7xl drop-shadow-[0_35px_35px_rgba(0,0,255,0.30)] font-bold">MONTAK</span>
-          <p class="mt-3 text-lg text-gray-800">
+          <h6 class="text-green-400 text-xl py-2 animate-fill-backwards animate-fade-up">#KeepSmile</h6>
+          <div class="w-max">
+            <h1 class="block text-5xl text-gray-800 sm:text-4xl md:text-5xl lg:text-7xl animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-black-100 pr-5 font-bold">
+              Welcome To
+            </h1> 
+          </div>
+          <span class="text-blue-600 text-5xl sm:text-7xl drop-shadow-[0_35px_35px_rgba(0,0,255,0.30)] overflow-hidden font-bold">
+            MONTAK
+          </span>
+          <p class="mt-3 text-lg text-gray-800 animate-fade-left animate-delay-100">
             Paperless adalah masa depan. Saatnya mengurangi biaya dan selamatkan lingkungan.
             <span class="italic">
               Change the way to do your thesis and internship report.
@@ -24,18 +27,15 @@
           </p>
 
           <div class="mt-5 lg:mt-8 flex flex-row items-center gap-4">
-            <a class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-full uppercase text-sm px-5 py-3 text-center me-2 mb-2"
-              href="#">
+            <a class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-full uppercase text-sm px-5 py-3 text-center me-2 mb-2 animate-fade-up" href="#">
               Ajukan TA/KP
             </a>
-            <a class="text-white bg-gradient-to-r from-gray-500 via-gray-600 to-gray-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-gray-300 dark:focus:ring-gray-800 shadow-lg shadow-gray-500/50 dark:shadow-lg dark:shadow-gray-800/80 font-medium rounded-full uppercase text-sm px-5 py-3 text-center me-2 mb-2"
-              href="#">
+            <a class="text-white bg-gradient-to-r from-gray-500 via-gray-600 to-gray-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-gray-300 dark:focus:ring-gray-800 shadow-lg shadow-gray-500/50 dark:shadow-lg dark:shadow-gray-800/80 font-medium rounded-full uppercase text-sm px-5 py-3 text-center me-2 mb-2 animate-fade-left animate-delay-500" href="#">
               PANDUAN
             </a>
           </div>
-          <div class="mt-6 lg:mt-12">
+          <div class="mt-6 lg:mt-12 animate-fade-up">
             <span class="text-xs font-medium text-gray-800 uppercase">Build by:</span>
-
             <div class="mt-4 flex gap-x-8 transition-transform transform hover:scale-105">
               <svg class="w-20 h-auto" width="106" height="36" viewBox="0 0 106 36" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
@@ -116,7 +116,7 @@
             </div>
           </div>
         </div>
-        <div class="lg:col-span-4 mt-10 lg:mt-0 md:col-span-4 relative">
+        <div class="lg:col-span-4 mt-10 lg:mt-0 md:col-span-4 relative animate-fade-left animate-delay-75">
           <img class="w-full h-auto object-cover md:w-auto lg:w-auto" src="/images/hero-img.png" alt="hero-img">
         </div>
       </div>

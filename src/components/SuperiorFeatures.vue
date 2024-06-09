@@ -1,6 +1,6 @@
 <template>
     <section>
-        <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-10 mx-auto">
+        <div class="container px-3 py-10 sm:px-6 lg:px-3 lg:py-10 mx-auto">
             <p class=" text-green-500 font-medium">#Fitur</p>
             <h1 class="sm:text-3xl uppercase font-bold">
                 Fitur Unggulan MONTAK
@@ -26,7 +26,7 @@
 
                                 </div>
                                 <div>
-                                    <h2 class="text-xs md:text-sm lg:text-xl font-bold text-black-100">Pengajuan Judul TA/KP</h2>
+                                    <h2 class="text-lg md:text-sm lg:text-xl font-bold text-black-100">Pengajuan Judul TA/KP</h2>
                                     <p class="text-gray-500">Pengajuan judul Tugas Akhir dan Kerja Praktek dapat
                                         dilakukan secara online
                                         melalui MONTAK.</p>
@@ -42,7 +42,7 @@
                                     </svg>
                                 </div>
                                 <div>
-                                    <h2 class="text-xs md:text-sm lg:text-xl font-bold text-black-100">
+                                    <h2 class="text-lg md:text-sm lg:text-xl font-bold text-black-100">
                                         Bimbingan Online TA/KP
                                     </h2>
                                     <p class="text-gray-500">
@@ -64,7 +64,7 @@
                                     </svg>
                                 </div>
                                 <div>
-                                    <h2 class="text-xs md:text-sm lg:text-xl font-bold text-black-100">
+                                    <h2 class="text-lg md:text-sm lg:text-xl font-bold text-black-100">
                                         Revisi Proposal TA/KP
                                     </h2>
                                     <p class="text-gray-500">
@@ -85,7 +85,7 @@
 
                                 </div>
                                 <div>
-                                    <h2 class="text-xs md:text-sm lg:text-xl font-bold text-black-100">
+                                    <h2 class="text-lg md:text-sm lg:text-xl font-bold text-black-100">
                                         Evaluasi dan Penilaian TA/KP
                                     </h2>
                                     <p class="text-gray-500">
@@ -101,20 +101,19 @@
                     </div>
                 </div>
                 <div class="shrink-0 ms-auto flex w-full justify-center py-10 relative">
-                    <div class="absolute top-0 lg:right-32 lg:block hidden">
-                        <svg class="w-16 h-auto text-orange-500" width="121" height="135" viewBox="0 0 121 135"
-                            fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M5 16.4754C11.7688 27.4499 21.2452 57.3224 5 89.0164" stroke="currentColor"
-                                stroke-width="10" stroke-linecap="round"></path>
-                            <path d="M33.6761 112.104C44.6984 98.1239 74.2618 57.6776 83.4821 5" stroke="currentColor"
-                                stroke-width="10" stroke-linecap="round"></path>
-                            <path d="M50.5525 130C68.2064 127.495 110.731 117.541 116 78.0874" stroke="currentColor"
-                                stroke-width="10" stroke-linecap="round"></path>
-                        </svg>
-                    </div>
-                    <div>
+                    <div class="relative">
+                        <div class="absolute top-0 right-0 -me-14 -mt-10 lg:block hidden">
+                            <svg class="w-16 h-auto text-orange-500" width="121" height="135" viewBox="0 0 121 135"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 16.4754C11.7688 27.4499 21.2452 57.3224 5 89.0164" stroke="currentColor"
+                                    stroke-width="10" stroke-linecap="round"></path>
+                                <path d="M33.6761 112.104C44.6984 98.1239 74.2618 57.6776 83.4821 5" stroke="currentColor"
+                                    stroke-width="10" stroke-linecap="round"></path>
+                                <path d="M50.5525 130C68.2064 127.495 110.731 117.541 116 78.0874" stroke="currentColor"
+                                    stroke-width="10" stroke-linecap="round"></path>
+                            </svg>
+                        </div>
                         <img src="/images/device-frame.png" alt="image" class="w-auto lg:w-72 md:w-72 md:my-auto lg:my-0 h-auto object-cover">
-
                     </div>
                 </div>
             </div>

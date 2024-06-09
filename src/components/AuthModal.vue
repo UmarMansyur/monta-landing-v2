@@ -49,8 +49,8 @@ import { closeModal } from '../helpers/modal';
                 class="block w-full p-[8px] text-gray-900 border border-gray-300 rounded-md  text-sm focus:ring-transparent focus:border-gray-300">
             </div>
             <div>
-              <label for="nim" class="text-sm font-medium">Password</label>
-              <input type="password" name="nim" id="nim"
+              <label for="password" class="text-sm font-medium">Password</label>
+              <input type="password" name="password" id="password"
                 class="block w-full p-[8px] text-gray-900 border border-gray-300 rounded-md  text-sm focus:ring-transparent focus:border-gray-300">
             </div>
             <div class="flex justify-between">
@@ -65,8 +65,8 @@ import { closeModal } from '../helpers/modal';
               <a href="" class="text-xs font-semibold text-blue-800">Lupa Password?</a>
             </div>
             <div class="flex justify-between">
-              <button class="text-white bg-gradient-to-r from-gray-500 via-gray-600 to-gray-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-gray-300 dark:focus:ring-gray-800 shadow-lg shadow-gray-500/50 dark:shadow-lg dark:shadow-gray-800/80 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 block w-full">Batal</button>
-              <button class="text-white bg-gradient-to-tr from-blue-400 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-400/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-full text-sm px-5 py-2.5 text-center mb-2 block w-full">Masuk</button>
+              <button class="text-white bg-gray-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-gray-300 dark:focus:ring-gray-800 shadow-lg shadow-gray-500/50 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 block w-full">Batal</button>
+              <button class="text-white bg-blue-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-400/50 font-medium rounded-full text-sm px-5 py-2.5 text-center mb-2 block w-full">Masuk</button>
             </div>
           </form>
         </div>

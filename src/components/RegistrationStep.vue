@@ -1,6 +1,6 @@
 <template>
     <section>
-        <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-10 mx-auto">
+        <div class="container px-3 py-10 sm:px-6 lg:px-3 lg:py-10 mx-auto">
             <p class="text-center text-green-500 font-medium">#Alur Pengajuan</p>
             <h1 class="text-center sm:text-3xl uppercase font-bold">
                 Tahapan Pengajuan Judul Tugas Akhir & Kerja Praktek <br>🎖️

@@ -1,6 +1,6 @@
 <template>
     <section class="bg-gradient-to-b from-gray-50 to-transparent py-10 mb-10">
-        <div class="max-w-[85rem] px-4 sm:px-6 lg:px-8 mx-auto">
+        <div class="container px-3 sm:px-6 lg:px-3 mx-auto">
             <p class="text-center text-green-500 font-medium">#Testimoni</p>
             <h1 class="text-center sm:text-3xl uppercase font-bold">
                 Apa Kata Mereka?

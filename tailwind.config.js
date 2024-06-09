@@ -11,6 +11,8 @@ export default {
       animation: {
         marquee: 'marquee 5s ease-in-out infinite alternate',
         marquee2: 'marquee 5s ease-in-out infinite alternate-reverse',
+        typing: 'typing 2s steps(20) infinite alternate, blink .7s infinite',
+        typing2: 'typing 2s steps(20) infinite alternate, blink2 .7s infinite',
       },
       keyframes: {
         marquee: {
@@ -21,9 +23,44 @@ export default {
           '-10%': { transform: 'translateY(10%)' },
           '100%': { transform: 'translateY(0%)' },
         },
+        typing: {
+          '0%': {
+            width: '0%',
+            visibility: 'hidden'
+          },
+          '100%': {
+            width: '100%'
+          }
+        },
+        blink: {
+          '50%': {
+            
+          },
+          '100%': {
+            borderColor: 'transparent'
+          }
+        },
+        blink2: {
+          '50%': {
+            borderColor: 'transparent'
+          },
+          '100%': {
+            borderColor: 'transparent'
+          }
+        },
+        typing2: {
+          '0%': {
+            // width: '0%',
+            visibility: 'hidden'
+          },
+          '100%': {
+            width: '100%'
+          }
+        }
       },
       fontFamily: {
         'sans': ['Poppins', ...defaultTheme.fontFamily.sans],
+        'serif': ['Open Sans', ...defaultTheme.fontFamily.serif],
       },
       // set body to color gray-100
       colors: {
@@ -37,7 +74,8 @@ export default {
     }
   },
   plugins: [
-    require('flowbite/plugin')
+    require('flowbite/plugin'),
+    require('tailwindcss-animated')
   ],
 }
 

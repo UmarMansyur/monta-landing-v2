@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .active {
+    @apply block font-medium md:p-0 text-blue-600 rounded;
+  }
+  .inactive {
+    @apply block md:p-0 text-black-100  rounded;
+  }
+}
+

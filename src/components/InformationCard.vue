@@ -1,16 +1,12 @@
 <template>
     <section class=" mx-auto mt-2 lg:mt-2 bg-white">
-      <!-- Features -->
-      <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-2 mx-auto">
-        <!-- Grid -->
+      <div class="container px-3 py-10 sm:px-6 lg:px-3 lg:py-2 mx-auto">
         <div class="grid items-center lg:grid-cols-12 gap-6 lg:gap-12">
           <div class="lg:col-span-4">
-            <!-- Stats -->
             <div class="lg:pe-6 xl:pe-12">
               <p class="text-6xl font-bold leading-10 text-blue-600">
                 2024
-                <span
-                  class="ms-1 inline-flex items-center gap-x-1 bg-gray-200 font-medium text-gray-800 text-xs leading-4 rounded-full py-0.5 px-2">
+                <span class="ms-1 inline-flex items-center gap-x-1 bg-gray-200 font-medium text-gray-800 text-xs leading-4 rounded-full py-0.5 px-2">
                   <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                     fill="currentColor" viewBox="0 0 16 16">
                     <path
@@ -19,16 +15,15 @@
                   New Release
                 </span>
               </p>
-              <p class="mt-2 sm:mt-3 text-gray-500">
-                Ganti tahun, ganti kebiasaan. Tahun 2024 adalah tahun yang penuh dengan harapan dan keberhasilan. <span class="text-blue-800 italic">Paperless is going to be the future to reduce cost and save the environment. </span>
+              <p class="mt-2 sm:mt-3 text-gray-500 ">
+                Ganti tahun, ganti kebiasaan. Tahun 2024 adalah tahun yang penuh dengan harapan dan keberhasilan. 
+                <span class="text-blue-800 italic">
+                  Paperless is going to be the future to reduce cost and save the environment. 
+                </span>
               </p> 
             </div>
-            <!-- End Stats -->
           </div>
-          <!-- End Col -->
-
-          <div
-            class="lg:col-span-8 relative lg:before:absolute lg:before:top-0 lg:before:-start-12 lg:before:w-px lg:before:h-full lg:before:bg-gray-300 lg:before:">
+          <div class="lg:col-span-8 relative lg:before:absolute lg:before:top-0 lg:before:-start-12 lg:before:w-px lg:before:h-full lg:before:bg-gray-300 lg:before:">
             <div class="grid gap-6 grid-cols-2 md:grid-cols-4 lg:grid-cols-3 sm:gap-8">
               <div>
                 <p class="text-6xl font-bold text-blue-600">99+</p>

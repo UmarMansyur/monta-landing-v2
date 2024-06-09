@@ -1,6 +1,6 @@
 <template>
     <section class="hero-section">
-        <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 sm:mt-12">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-3 sm:mt-12">
             <div class="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 justify-between md:items-center">
                 <div>
                     <div class="flex mx-auto">

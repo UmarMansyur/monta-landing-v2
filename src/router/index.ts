@@ -8,10 +8,21 @@ const routes: Array<RouteRecordRaw> = [
         component: () => import('../views/Home.vue')
     },
     {
-        path: '/auth',
-        name: 'Login',
-        component: () => import('../views/Authentication.vue')
+        path: '/pengajuan/kerja-praktek',
+        name: 'Pengajuan - Kerja Praktek',
+        component: () => import('../views/PracticalWork.vue')
     },
+    {
+        path: '/pengajuan/tugas-akhir',
+        name: 'Pengajuan - Tugas Akhir',
+        component: () => import('../views/Thesis.vue')
+    },
+    // error 404
+    {
+        path: '/:pathMatch(.*)*',
+        name: 'Error 404',
+        component: () => import('../views/404.vue')
+    }
 ];
 
 const router = createRouter({
