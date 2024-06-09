@@ -31,7 +31,7 @@
               </RouterLink>
             </li>
             <li class="relative">
-              <button type="button" @mouseenter="mouseHover" @mouseleave="hiddenCollapse" id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:text-blue md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto">
+              <button type="button" @click="clickMenu" @mouseenter="mouseHover" @mouseleave="hiddenCollapse" id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:text-blue md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto">
                 <span :class="{ 'active': $route.path.includes('pengajuan'), 'inactive': !$route.path.includes('pengajuan') }">
                   Pengajuan KP/TA
                 </span>
@@ -77,5 +77,5 @@
 <script setup lang="ts">
 import { modalClick } from '../helpers/modal';
 import AuthModal from './AuthModal.vue';
-import { toggleMenu, mouseHover, hiddenCollapse } from '../helpers/navbar';
+import { toggleMenu, mouseHover, hiddenCollapse, clickMenu } from '../helpers/navbar';
 </script>

@@ -8,6 +8,11 @@ const mouseHover = () => {
   target?.classList.remove('hidden')
 }
 
+const clickMenu = () => {
+  const target = document.getElementById('dropdownNavbar');
+  target?.classList.toggle('hidden')
+}
+
 const hiddenCollapse = () => {
   const target = document.getElementById('dropdownNavbar');
   target?.classList.add('hidden')
@@ -16,5 +21,6 @@ const hiddenCollapse = () => {
 export {
   toggleMenu,
   mouseHover,
-  hiddenCollapse
+  hiddenCollapse,
+  clickMenu
 }
