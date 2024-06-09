@@ -49,7 +49,7 @@
                     </RouterLink>
                   </li>
                   <li>
-                    <RouterLink to="/pengajuan/tugas-akhir" class="block px-4 py-2 hover:bg-gray-100 mx-2 rounded-lg text-sm">
+                    <RouterLink to="/pengajuan/tugas-akhir" class="block px-4 py-2 hover:bg-gray-100 mx-2 rounded-lg text-sm" :class="{ 'active': $route.path.includes('tugas-akhir'), 'inactive': !$route.path.includes('tugas-akhir') }">
                       Tugas Akhir
                     </RouterLink>
                   </li>
