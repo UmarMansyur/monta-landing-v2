@@ -69,7 +69,8 @@
       <div class="container mx-auto px-4">
         <div class="max-w-[85rem] px-4 py-1 sm:px-6 lg:px-8 lg:py-1 mx-auto">
           <h2 class="text-3xl sm:text-4xl font-bold text-white text-center">
-            Ayo, Lulus! 🎓
+            Ayo, Lulus! 🎓<br>
+            <p class="text-xl font-medium">Persiapan Tugas Akhir/Skripsi Anda!</p>
           </h2>
         </div>
       </div>
@@ -82,6 +83,7 @@
             Periode Pengajuan Judul Tugas Akhir <br> 📅
           </h2>
         </div>
+        <SearchFilter/>
         <div class="relative overflow-x-auto shadow-sm rounded-2xl border">
           <table class="w-full text-sm text-left rtl:text-right text-gray-500">
               <thead class="text-sm text-gray-700 uppercase">
@@ -90,7 +92,7 @@
                           Tahun Akademik
                       </th>
                       <th scope="col" class="px-6 py-5">
-                          Prodi
+                          Program Studi
                       </th>
                       <th scope="col" class="px-6 py-5 bg-gray-50">
                           Keterangan Periode
@@ -123,6 +125,21 @@
                 </tr>
               </tbody>
           </table>
+          </div>
+        <Pagination/>
+      </div>
+    </section>
+    <section>
+      <div class="container mx-auto px-3 my-10">
+        <div class="flex bg-blue-500 space-x-5 p-3 rounded-md items-center">
+          <div class="shrink-0 mx-auto text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
+            </svg>
+          </div>
+          <div class="text-sm text-white">
+            Setiap program studi memiliki persyaratan yang berbeda-beda dalam pengajuan judul tugas akhir/skripsi. Segera kunjungi bagian akademik pada masing-masing prodi atau masuk ke akun MONTAK untuk informasi lebih lanjut.
+          </div>
         </div>
       </div>
     </section>
@@ -134,6 +151,7 @@
             Pembiayaan Tugas Akhir <br> 💸
           </h2>
         </div>
+        <SearchFilter/>
         <div class="relative overflow-x-auto shadow-sm rounded-2xl border">
           <table class="w-full text-sm text-left rtl:text-right text-gray-500">
               <thead class="text-sm text-gray-700 uppercase">
@@ -142,7 +160,7 @@
                         Tahun Akademik
                       </th>
                       <th scope="col" class="px-6 py-5">
-                        Prodi
+                        Program Studi
                       </th>
                       <th scope="col" class="px-6 py-5 bg-gray-50">
                         Komponen Biaya
@@ -170,15 +188,82 @@
               </tbody>
           </table>
         </div>
+        <Pagination/>
       </div>
     </section>
     <section class="bg-gray-900 my-20">
-      sdf
+      <div class="container mx-auto px-3 py-10">
+        <h1>
+          <span class="text-sm font-medium text-green-500">#Montak</span>
+          <h1 class="text-white text-2xl font-semibold uppercase">
+            Periode Jadwal Ujian Sidang Tugas Akhir/Skripsi 🚀
+          </h1>
+        </h1>
+        <SearchFilter/>
+        <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+          <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+            <caption class="p-5 text-lg font-semibold text-left rtl:text-right text-gray-900 bg-white dark:text-white dark:bg-gray-800">
+              Ayo Lulus! 🎓
+                <p class="mt-1 text-sm font-normal text-gray-500 dark:text-gray-400">
+                  Filter berdasarkan program studi untuk melihat jadwal ujian sidang tugas akhir/skripsi sesuai dengan program studi anda.
+                </p>
+            </caption>
+            <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                <tr>
+                    <th scope="col" class="px-6 py-3">
+                        Tahun Akaedmik
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                      Keterangan
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                      Jenis Ujian
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                        Program Studi
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                        Tanggal Ujian
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                       Batas Akhir Ujian
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="bg-white border-b hover:bg-gray-100">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                      2324 - Genap
+                    </th>
+                    <td class="px-6 py-4">
+                        Gelombang 1
+                    </td>
+                    <td class="px-6 py-4">
+                        Ujian Sidang Proposal
+                    </td>
+                    <td class="px-6 py-4">
+                      Informatika
+                    </td>
+                    <td class="px-6 py-4">
+                      12 Agustus 2024
+                    </td>
+                    <td class="px-6 py-4">
+                      12 Agustus 2024
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+        <Pagination2/>
+      </div>
     </section>
   </Parent>
 </template>
 
 <script setup lang="ts">
 import BreadCrumb from "../components/BreadCrumb.vue";
+import Pagination from "../components/Pagination.vue";
+import Pagination2 from "../components/Pagination2.vue";
+import SearchFilter from "../components/Search&Filter.vue";
 import Parent from "./Parent.vue";
 </script>

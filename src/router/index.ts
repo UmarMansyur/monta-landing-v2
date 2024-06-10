@@ -17,6 +17,11 @@ const routes: Array<RouteRecordRaw> = [
         name: 'Pengajuan - Tugas Akhir',
         component: () => import('../views/Thesis.vue')
     },
+    {
+        path: '/penelitian-dosen',
+        name: 'Penelitian - Dosen',
+        component: () => import('../views/TeacherReseach.vue')
+    },
     // error 404
     {
         path: '/:pathMatch(.*)*',
@@ -27,7 +32,8 @@ const routes: Array<RouteRecordRaw> = [
 
 const router = createRouter({
     history: createWebHistory(),
-    routes
+    routes,
+    linkActiveClass: 'active'
 });
 
 router.beforeEach((to, _from, next) => {

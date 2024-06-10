@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-wrap justify-between my-4">
-    <div class="">
+    <div>
       <span class="text-black-100 dark:text-gray-400 text-sm">Menampilkan 1-1 dari 1</span>
     </div>
     <div class="flex items-center text-sm text-gray-500">

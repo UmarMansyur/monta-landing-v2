@@ -29,40 +29,13 @@
         <p class="text-sm text-gray-400">
           Gunakan filter prodi untuk menampilkan periode pengajuan kerja praktek atau gunakan kolom pencarian untuk mencari periode pengajuan kerja praktek.
         </p>
-        <div class="flex justify-between space-x-8 my-4">
-          <div class="shrink-0">
-            <form class="max-w-sm mx-auto">
-              <label for="prodi-pengajuan" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white sr-only">prodi</label>
-              <select id="prodi-pengajuan" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-transparent focus:outline-none focus:border-gray-300 block w-full p-2.5">
-                <option selected>Pilih Prodi</option>
-                <option value="52">Informatika</option>
-                <option value="51">Sipil</option>
-                <option value="53">Industri</option>
-              </select>
-            </form>
-          </div>
-          <div>
-            <label for="search-periode" class="sr-only">Search</label>
-            <div class="relative mt-1">
-              <div class="absolute inset-y-0 rtl:inset-r-0 start-0 flex items-center ps-3 pointer-events-none">
-                <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
-                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
-                </svg>
-              </div>
-              <input type="text" id="search-periode"
-                class="pt-2.5 ps-10 block w-40 sm:w-56 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-transparent focus:border-gray-300"
-                placeholder="Cari ..." />
-            </div>
-          </div>
-        </div>
+        <SearchFilter/>
         <div class="overflow-x-auto sm:rounded-lg py-1">
           <table class="w-full text-sm text-left rtl:text-right rounded-xl border">
             <thead class="text-xs uppercase bg-gray-100 dark:bg-gray-700 rounded-xl rounded-t">
               <tr>
                 <th scope="col" class="px-6 py-4 text-sm border-r border-b">Tahun Akademik</th>
-                <th scope="col" class="px-6 py-4 text-sm border-r border-b">Prodi</th>
+                <th scope="col" class="px-6 py-4 text-sm border-r border-b">Program Studi</th>
                 <th scope="col" class="px-6 py-4 text-sm border-r border-b w-96">Keterangan</th>
                 <th scope="col" class="px-6 py-4 text-sm border-r border-b">Tanggal Pendaftaran</th>
                 <th scope="col" class="px-6 py-4 text-sm border-r border-b">Batas Pendaftaran</th>
@@ -93,9 +66,11 @@
         <Pagination/>
         <div class="alert">
           <div class="bg-yellow-400 p-3 my-4 rounded-xl flex space-x-2 text-white items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M10.34 15.84c-.688-.06-1.386-.09-2.09-.09H7.5a4.5 4.5 0 1 1 0-9h.75c.704 0 1.402-.03 2.09-.09m0 9.18c.253.962.584 1.892.985 2.783.247.55.06 1.21-.463 1.511l-.657.38c-.551.318-1.26.117-1.527-.461a20.845 20.845 0 0 1-1.44-4.282m3.102.069a18.03 18.03 0 0 1-.59-4.59c0-1.586.205-3.124.59-4.59m0 9.18a23.848 23.848 0 0 1 8.835 2.535M10.34 6.66a23.847 23.847 0 0 0 8.835-2.535m0 0A23.74 23.74 0 0 0 18.795 3m.38 1.125a23.91 23.91 0 0 1 1.014 5.395m-1.014 8.855c-.118.38-.245.754-.38 1.125m.38-1.125a23.91 23.91 0 0 0 1.014-5.395m0-3.46c.495.413.811 1.035.811 1.73 0 .695-.316 1.317-.811 1.73m0-3.46a24.347 24.347 0 0 1 0 3.46" />
-            </svg>
+            <div class="p-1 shrink-0">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M10.34 15.84c-.688-.06-1.386-.09-2.09-.09H7.5a4.5 4.5 0 1 1 0-9h.75c.704 0 1.402-.03 2.09-.09m0 9.18c.253.962.584 1.892.985 2.783.247.55.06 1.21-.463 1.511l-.657.38c-.551.318-1.26.117-1.527-.461a20.845 20.845 0 0 1-1.44-4.282m3.102.069a18.03 18.03 0 0 1-.59-4.59c0-1.586.205-3.124.59-4.59m0 9.18a23.848 23.848 0 0 1 8.835 2.535M10.34 6.66a23.847 23.847 0 0 0 8.835-2.535m0 0A23.74 23.74 0 0 0 18.795 3m.38 1.125a23.91 23.91 0 0 1 1.014 5.395m-1.014 8.855c-.118.38-.245.754-.38 1.125m.38-1.125a23.91 23.91 0 0 0 1.014-5.395m0-3.46c.495.413.811 1.035.811 1.73 0 .695-.316 1.317-.811 1.73m0-3.46a24.347 24.347 0 0 1 0 3.46" />
+              </svg>
+            </div>
             <p class="text-white text-sm">
               Segera lakukan pendaftaran ulang kerja praktek sebelum batas pendaftaran berakhir. #<i class="font-bold">No Pain No Gain</i>
             </p>
@@ -103,42 +78,15 @@
         </div>
         <h2 class="font-bold text-2xl">Biaya Kerja Praktek</h2>
         <p class="text-sm text-gray-400">
-          Gunakan filter prodi untuk menampilkan periode pengajuan kerja praktek atau gunakan kolom pencarian untuk mencari periode pengajuan kerja praktek.
+          Pastikan anda telah memfilter prodi untuk menampilkan biaya kerja praktek yang sesuai dengan prodi anda.
         </p>
-        <div class="flex justify-between space-x-8 my-4">
-          <div class="shrink-0">
-            <form class="max-w-sm mx-auto">
-              <label for="countries" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white sr-only">prodi</label>
-              <select id="countries" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-transparent focus:outline-none focus:border-gray-300 block w-full p-2.5">
-                <option selected>Pilih Prodi</option>
-                <option value="52">Informatika</option>
-                <option value="51">Sipil</option>
-                <option value="53">Industri</option>
-              </select>
-            </form>
-          </div>
-          <div>
-            <label for="table-search" class="sr-only">Search</label>
-            <div class="relative mt-1">
-              <div class="absolute inset-y-0 rtl:inset-r-0 start-0 flex items-center ps-3 pointer-events-none">
-                <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
-                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
-                </svg>
-              </div>
-              <input type="text" id="table-search"
-                class="pt-2.5 ps-10 block w-40 sm:w-56 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-transparent focus:border-gray-300"
-                placeholder="Cari ..." />
-            </div>
-          </div>
-        </div>
+        <SearchFilter/>
         <div class="overflow-x-auto sm:rounded-lg py-1">
           <table class="w-full text-sm text-left rtl:text-right rounded-xl border">
             <thead class="text-xs uppercase bg-gray-100 dark:bg-gray-700 rounded-xl rounded-t">
               <tr>
                 <th scope="col" class="px-6 py-4 text-sm border-r border-b">Tahun Akademik</th>
-                <th scope="col" class="px-6 py-4 text-sm border-r border-b">Prodi</th>
+                <th scope="col" class="px-6 py-4 text-sm border-r border-b">Program Studi</th>
                 <th scope="col" class="px-6 py-4 text-sm border-r border-b w-96">Komponen Pembayaran</th>
                 <th scope="col" class="px-6 py-4 text-sm border-r border-b text-end">Nominal</th>
               </tr>
@@ -172,6 +120,45 @@
                 </td>
                 <td class="px-6 py-4 border-r text-end">
                   Rp. 350.000
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <Pagination/>
+        <h2 class="font-bold text-2xl">Periode Ujian Kerja Praktek</h2>
+        <p class="text-sm text-gray-400">
+          Ujian Kerja Praktek dapat dilakukan sebelum dari jadwal yang telah ditentukan atas persetujuan pembimbing kerja praktek. Gunakan filter prodi untuk menampilkan periode ujian kerja praktek atau gunakan kolom pencarian untuk mencari periode ujian kerja praktek.
+        </p>
+        <SearchFilter/>
+        <div class="overflow-x-auto sm:rounded-lg py-1">
+          <table class="w-full text-sm text-left rtl:text-right rounded-xl border">
+            <thead class="text-xs uppercase bg-gray-100 dark:bg-gray-700 rounded-xl rounded-t">
+              <tr>
+                <th scope="col" class="px-6 py-4 text-sm border-r border-b">Tahun Akademik</th>
+                <th scope="col" class="px-6 py-4 text-sm border-r border-b">Program Studi</th>
+                <th scope="col" class="px-6 py-4 text-sm border-r border-b w-96">Keterangan</th>
+                <th scope="col" class="px-6 py-4 text-sm border-r border-b">Tanggal Ujian</th>
+                <th scope="col" class="px-6 py-4 text-sm border-r border-b">Batas Akhir Ujian</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr
+                class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                <td scope="row" class="px-6 py-4 border-r">
+                  2324 - Genap
+                </td>
+                <td class="px-6 py-4 border-r">
+                  Informatika
+                </td>
+                <td class="px-6 py-4 border-r">
+                  Gelombang 1
+                </td>
+                <td class="px-6 py-4 border-r text-end">
+                  12 Januari 2023
+                </td>
+                <td class="px-6 py-4 border-r text-end">
+                  12 Februari 2024
                 </td>
               </tr>
             </tbody>
@@ -310,4 +297,5 @@
 import Parent from "./Parent.vue";
 import Pagination from "../components/Pagination.vue";
 import BreadCrumb from "../components/BreadCrumb.vue";
+import SearchFilter from "../components/Search&Filter.vue";
 </script>

@@ -44,12 +44,12 @@
               <div id="dropdownNavbar" @mouseenter="mouseHover" @mouseleave="hiddenCollapse" class="z-10 hidden bg-white sm:bg-white/90 font-normal absolute divide-y divide-gray-100 rounded-lg shadow w-44 sm:backdrop-blur-2xl">
                 <ul class="py-2 text-sm text-gray-700" aria-labelledby="dropdownLargeButton">
                   <li>
-                    <RouterLink to="/pengajuan/kerja-praktek" class="block px-4 py-2 hover:bg-gray-100 mx-2 rounded-lg text-sm" :class="{ 'active': $route.path.includes('kerja-praktek'), 'inactive': !$route.path.includes('kerja-praktek') }">
+                    <RouterLink to="/pengajuan/kerja-praktek" class="block px-4 py-2 hover:bg-gray-100 mx-2 rounded-lg text-sm">
                       Kerja Praktek
                     </RouterLink>
                   </li>
                   <li>
-                    <RouterLink to="/pengajuan/tugas-akhir" class="block px-4 py-2 hover:bg-gray-100 mx-2 rounded-lg text-sm" :class="{ 'active': $route.path.includes('tugas-akhir'), 'inactive': !$route.path.includes('tugas-akhir') }">
+                    <RouterLink to="/pengajuan/tugas-akhir" class="block px-4 py-2 hover:bg-gray-100 mx-2 rounded-lg text-sm">
                       Tugas Akhir
                     </RouterLink>
                   </li>
@@ -57,12 +57,12 @@
               </div>
             </li>
             <li>
-              <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded md:hover:text-blue-700">
+              <RouterLink to="/penelitian-dosen" class="block py-2 px-3 md:p-0 rounded md:hover:text-blue-700">
                 Penelitian Dosen
-              </a>
+              </RouterLink>
             </li>
             <li>
-              <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded md:hover:text-blue-700">
+              <a href="#" class="block py-2 px-3 md:p-0 rounded md:hover:text-blue-700">
                 Panduan
               </a>
             </li>
