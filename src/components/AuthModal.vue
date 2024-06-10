@@ -10,7 +10,7 @@ import { closeModal } from '../helpers/modal';
       <!-- Modal content -->
       <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
         <div class="flex flex-col justify-center items-center">
-          <div class=" bg-blue-50 w-16 h-16 rounded-full p-2 flex justify-center my-auto absolute top-7 shadow-blue-50 shadow-lg">
+          <div class=" bg-blue-50 w-16 h-16 rounded-full p-2 flex justify-center my-auto absolute top-7 shadow-blue-50 shadow-lg mt-2">
             <div class="flex w-16 p-1 bg-blue-500 shadow-sm shadow-blue-300/50  justify-center items-center rounded-full text-white">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                 stroke="currentColor" class="size-6">
@@ -35,7 +35,7 @@ import { closeModal } from '../helpers/modal';
           </button>
         </div>
         <!-- Modal body -->
-        <div class="p-4 md:p-7">
+        <div class="p-4 md:p-7 mt-5 sm:mt-0">
           <div class="flex flex-col justify-center items-center space-y-3">
             <h1 class="text-xl font-bold mt-2">WELCOME BACK</h1>
             <p class="text-xs text-black-100">

@@ -11,6 +11,7 @@ export default {
       animation: {
         marquee: 'marquee 5s ease-in-out infinite alternate',
         marquee2: 'marquee 5s ease-in-out infinite alternate-reverse',
+        marquee3: 'marquee3 20s linear infinite',
         typing: 'typing 2s steps(20) infinite alternate, blink .7s infinite',
         typing2: 'typing 2s steps(20) infinite alternate, blink2 .7s infinite',
       },
@@ -22,6 +23,10 @@ export default {
         marquee2: {
           '-10%': { transform: 'translateY(10%)' },
           '100%': { transform: 'translateY(0%)' },
+        },
+        marquee3: {
+          '100%': { transform: 'translateX(-100%)' },
+          '0%': { transform: 'translateX(100%)' },
         },
         typing: {
           '0%': {

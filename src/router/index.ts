@@ -22,6 +22,11 @@ const routes: Array<RouteRecordRaw> = [
         name: 'Penelitian - Dosen',
         component: () => import('../views/TeacherReseach.vue')
     },
+    {
+        path: '/panduan',
+        name: 'Panduan',
+        component: () => import('../views/Guide.vue')
+    },
     // error 404
     {
         path: '/:pathMatch(.*)*',

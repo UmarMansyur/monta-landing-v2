@@ -31,8 +31,8 @@
               </RouterLink>
             </li>
             <li class="relative">
-              <button type="button" @click="clickMenu" @mouseenter="mouseHover" @mouseleave="hiddenCollapse" id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:text-blue md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto">
-                <span :class="{ 'active': $route.path.includes('pengajuan'), 'inactive': !$route.path.includes('pengajuan') }">
+              <button type="button" @click="clickMenu" @mouseenter="mouseHover" @mouseleave="hiddenCollapse" id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 rounded hover:text-blue md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto">
+                <span :class="{ 'active': $route.path.includes('pengajuan') }">
                   Pengajuan KP/TA
                 </span>
                 <svg class="w-2.5 h-2.5 ms-2.5" :class="$route.path.includes('pengajuan') ? 'text-blue-600': 'text-black-100'" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -62,9 +62,9 @@
               </RouterLink>
             </li>
             <li>
-              <a href="#" class="block py-2 px-3 md:p-0 rounded md:hover:text-blue-700">
+              <RouterLink to="/panduan" class="block py-2 px-3 md:p-0 rounded md:hover:text-blue-700">
                 Panduan
-              </a>
+              </RouterLink>
             </li>
           </ul>
         </div>

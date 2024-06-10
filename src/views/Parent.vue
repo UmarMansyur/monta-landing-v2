@@ -1,9 +1,11 @@
 <template>
-	<TheHeader></TheHeader>
-	<main id="content" class="sm:mt-0">
-		<slot></slot>
-	</main>
-	<TheFooter />
+	<div class="flex flex-col h-screen">
+		<TheHeader></TheHeader>
+		<main id="content" class="sm:mt-0 flex flex-col flex-1">
+			<slot></slot>
+		</main>
+		<TheFooter />
+	</div>
 </template>
 
 <script setup lang="ts">
