@@ -1,9 +1,9 @@
 <template>
     <footer>
-        <div class="mx-auto w-full px-3 container mt-auto lg:py-4 py-4">
+        <div class="mx-auto w-full px-3 container">
             <div class="md:flex md:justify-between mt-10">
                 <div class="md:mb-0">
-                    <a href="https://flowbite.com/" class="flex items-center">
+                    <a href="https://flowbite.com/" class="flex items-center mb-2">
                         <img src="/images/logo-unira.png" class="h-8 me-3" alt="FlowBite Logo" />
                         <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">MONTAK</span>
                     </a>

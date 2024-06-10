@@ -27,7 +27,11 @@ const routes: Array<RouteRecordRaw> = [
         name: 'Panduan',
         component: () => import('../views/Guide.vue')
     },
-    // error 404
+    {
+        path: '/admin/dashboard',
+        name: 'Dashboard - Admin',
+        component: () => import('../views/Administrator/Dashboard.vue')
+    },
     {
         path: '/:pathMatch(.*)*',
         name: 'Error 404',
@@ -38,7 +42,10 @@ const routes: Array<RouteRecordRaw> = [
 const router = createRouter({
     history: createWebHistory(),
     routes,
-    linkActiveClass: 'active'
+    linkActiveClass: 'active',
+    scrollBehavior(_, __) {
+        return { top: 0 };
+    }
 });
 
 router.beforeEach((to, _from, next) => {

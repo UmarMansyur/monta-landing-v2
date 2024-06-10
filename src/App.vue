@@ -3,7 +3,6 @@
 </template>
 
 <script setup lang="ts">
-
 import { onMounted } from 'vue';
 import {
   initAccordions,
@@ -34,6 +33,6 @@ onMounted(() => {
   initPopovers();
   initTabs();
   initTooltips();
-
+  window.scrollTo(0, 0);
 });
 </script>

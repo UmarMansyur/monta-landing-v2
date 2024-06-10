@@ -18,9 +18,28 @@ const hiddenCollapse = () => {
   target?.classList.add('hidden')
 }
 
+const toggleDropdown = (id: string) => {
+  const target = document.getElementById(id);
+  target?.classList.toggle('hidden')
+}
+
+const blurDropdown = (id: string) => {
+  const target = document.getElementById(id);
+  target?.classList.add('hidden')
+}
+
+const focusDropdown = (id: string) => {
+  const target = document.getElementById(id);
+  target?.classList.remove('hidden')
+}
+
+
 export {
   toggleMenu,
   mouseHover,
   hiddenCollapse,
-  clickMenu
+  clickMenu,
+  toggleDropdown,
+  blurDropdown,
+  focusDropdown
 }

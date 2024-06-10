@@ -130,20 +130,20 @@
                   <img src="https://api.unira.ac.id/img/profil/mhs/d9674b9d198eecaa13f3f057d5390a12.jpg" alt="Dosen" class="w-10 h-10 rounded-full">
                 </div>
                 <div class="ml-4">
-                  <div class="text-sm font-medium text-gray-900">Moh. Nazir Arifin</div>
-                  <div class="text-xs text-gray-500">Dosen Teknik Informatika</div>
+                  <div class="text-[12px] font-medium text-gray-900">Moh. Nazir Arifin</div>
+                  <div class="text-[10px] text-gray-500">Dosen Teknik Informatika</div>
                 </div>
               </div>
               <div class="mt-3">
-                <h1 class="text-sm font-medium text-gray-900">Sistem Informasi</h1>
-                <p class="text-xs text-gray-500">
+                <h1 class="text-xs font-medium text-gray-900">Sistem Informasi</h1>
+                <p class="text-[10px] text-gray-500">
                   Pendekatan Critical Success Factor (CSF) dalam Pengembangan Website Fakultas Universitas Madura
                 </p>
                 <div class="flex justify-between items-center mt-2">
-                  <span class="text-xs bg-red-500 text-white px-2 py-1 rounded-full">
+                  <span class="lg:text-[10px] sm:text-[10px] md:text-[10px] text-[9px] bg-red-500 text-white px-2 py-1 rounded-full shrink-0">
                     Belum di ambil
                   </span>
-                  <span class="text-xs font-bold">29 Juli 2024 05:03 WIB</span>
+                  <span class="text-[10px] font-semibold">29 Juli 2024 05:03 WIB</span>
                 </div>
               </div>
             </div>

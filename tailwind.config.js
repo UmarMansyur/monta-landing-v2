@@ -7,6 +7,10 @@ export default {
     "./node_modules/flowbite/**/*.js"
   ],
   theme: {
+    container: {
+      center: true,
+      padding: '1rem',
+    },
     extend: {
       animation: {
         marquee: 'marquee 5s ease-in-out infinite alternate',
